@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (nav) JobQueued: {'identifier': 'nav', 'dependencies': OrderedDict()}
+[0.000278] (nav) JobStarted: {'identifier': 'nav'}
+[0.006700] (nav) JobProgress: {'identifier': 'nav', 'progress': 'cmake'}
+[0.007059] (nav) Command: {'cmd': ['/usr/bin/cmake', '/home/tharun/smoothing-rpp', '-DCMAKE_INSTALL_PREFIX=/home/tharun/smoothing-rpp/install/nav'], 'cwd': '/home/tharun/smoothing-rpp/build/nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tharun'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.1/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/tharun'), ('OLDPWD', '/home/tharun'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1459'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/tharun/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tharun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tharun'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/ros/humble/bin:/home/tharun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tharun-LOQ-15ARP9:@/tmp/.ICE-unix/1435,unix/tharun-LOQ-15ARP9:/tmp/.ICE-unix/1435'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8caf6d23_e3f3_48a5_b33d_2e89a1ac7dd2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tharun/smoothing-rpp/build/nav'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060649] (nav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099333] (-) TimerEvent: {}
+[0.109838] (nav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116956] (nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.187697] (nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.192686] (nav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.192894] (nav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.193178] (nav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.195307] (nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199427] (-) TimerEvent: {}
+[0.273155] (nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.278475] (nav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.278676] (nav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.279062] (nav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.283839] (nav) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.285898] (nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299540] (-) TimerEvent: {}
+[0.399831] (-) TimerEvent: {}
+[0.407288] (nav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.478500] (nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499944] (-) TimerEvent: {}
+[0.513333] (nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.517425] (nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.524169] (nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.533508] (nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.546010] (nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.579902] (nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.582001] (nav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600049] (-) TimerEvent: {}
+[0.676876] (nav) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700177] (-) TimerEvent: {}
+[0.701226] (nav) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.743348] (nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.750622] (nav) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800284] (-) TimerEvent: {}
+[0.828036] (nav) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.828276] (nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900415] (-) TimerEvent: {}
+[0.902103] (nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.903027] (nav) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.941254] (nav) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.966891] (nav) StdoutLine: {'line': b'-- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.968152] (nav) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.991005] (nav) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.000518] (-) TimerEvent: {}
+[1.004515] (nav) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.013779] (nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.053766] (nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.066413] (nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.067313] (nav) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.067466] (nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100646] (-) TimerEvent: {}
+[1.181204] (nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.195529] (nav) StdoutLine: {'line': b'-- Generating done\n'}
+[1.200569] (nav) StdoutLine: {'line': b'-- Build files have been written to: /home/tharun/smoothing-rpp/build/nav\n'}
+[1.200719] (-) TimerEvent: {}
+[1.209975] (nav) CommandEnded: {'returncode': 0}
+[1.210732] (nav) JobProgress: {'identifier': 'nav', 'progress': 'build'}
+[1.212312] (nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tharun/smoothing-rpp/build/nav', '--', '-j16', '-l16'], 'cwd': '/home/tharun/smoothing-rpp/build/nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tharun'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.1/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/tharun'), ('OLDPWD', '/home/tharun'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1459'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/tharun/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tharun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tharun'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/ros/humble/bin:/home/tharun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tharun-LOQ-15ARP9:@/tmp/.ICE-unix/1435,unix/tharun-LOQ-15ARP9:/tmp/.ICE-unix/1435'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8caf6d23_e3f3_48a5_b33d_2e89a1ac7dd2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tharun/smoothing-rpp/build/nav'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.266835] (nav) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/smoothing.dir/src/smoothing.cpp.o\x1b[0m\n'}
+[1.267108] (nav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[1.275583] (nav) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_nav\n'}
+[1.300827] (-) TimerEvent: {}
+[1.401153] (-) TimerEvent: {}
+[1.469690] (nav) StdoutLine: {'line': b'running egg_info\n'}
+[1.470039] (nav) StdoutLine: {'line': b'creating nav.egg-info\n'}
+[1.470219] (nav) StdoutLine: {'line': b'writing nav.egg-info/PKG-INFO\n'}
+[1.470373] (nav) StdoutLine: {'line': b'writing dependency_links to nav.egg-info/dependency_links.txt\n'}
+[1.470515] (nav) StdoutLine: {'line': b'writing top-level names to nav.egg-info/top_level.txt\n'}
+[1.470661] (nav) StdoutLine: {'line': b"writing manifest file 'nav.egg-info/SOURCES.txt'\n"}
+[1.471975] (nav) StdoutLine: {'line': b"reading manifest file 'nav.egg-info/SOURCES.txt'\n"}
+[1.472451] (nav) StdoutLine: {'line': b"writing manifest file 'nav.egg-info/SOURCES.txt'\n"}
+[1.496462] (nav) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_nav_egg\n'}
+[1.501255] (-) TimerEvent: {}
+[1.601547] (-) TimerEvent: {}
+[1.701894] (-) TimerEvent: {}
+[1.802277] (-) TimerEvent: {}
+[1.902636] (-) TimerEvent: {}
+[2.003065] (-) TimerEvent: {}
+[2.103449] (-) TimerEvent: {}
+[2.203814] (-) TimerEvent: {}
+[2.304171] (-) TimerEvent: {}
+[2.404469] (-) TimerEvent: {}
+[2.504831] (-) TimerEvent: {}
+[2.605184] (-) TimerEvent: {}
+[2.705542] (-) TimerEvent: {}
+[2.805898] (-) TimerEvent: {}
+[2.906265] (-) TimerEvent: {}
+[3.006622] (-) TimerEvent: {}
+[3.106990] (-) TimerEvent: {}
+[3.207345] (-) TimerEvent: {}
+[3.307696] (-) TimerEvent: {}
+[3.408064] (-) TimerEvent: {}
+[3.508412] (-) TimerEvent: {}
+[3.608768] (-) TimerEvent: {}
+[3.709151] (-) TimerEvent: {}
+[3.809505] (-) TimerEvent: {}
+[3.909860] (-) TimerEvent: {}
+[4.010220] (-) TimerEvent: {}
+[4.110568] (-) TimerEvent: {}
+[4.210916] (-) TimerEvent: {}
+[4.311296] (-) TimerEvent: {}
+[4.411637] (-) TimerEvent: {}
+[4.511991] (-) TimerEvent: {}
+[4.612332] (-) TimerEvent: {}
+[4.673417] (nav) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable smoothing\x1b[0m\n'}
+[4.712437] (-) TimerEvent: {}
+[4.812792] (-) TimerEvent: {}
+[4.857132] (nav) StdoutLine: {'line': b'[ 75%] Built target smoothing\n'}
+[4.912922] (-) TimerEvent: {}
+[5.013392] (-) TimerEvent: {}
+[5.113735] (-) TimerEvent: {}
+[5.214075] (-) TimerEvent: {}
+[5.314419] (-) TimerEvent: {}
+[5.414762] (-) TimerEvent: {}
+[5.515124] (-) TimerEvent: {}
+[5.615468] (-) TimerEvent: {}
+[5.715813] (-) TimerEvent: {}
+[5.816176] (-) TimerEvent: {}
+[5.916517] (-) TimerEvent: {}
+[6.016856] (-) TimerEvent: {}
+[6.117215] (-) TimerEvent: {}
+[6.217554] (-) TimerEvent: {}
+[6.317897] (-) TimerEvent: {}
+[6.418256] (-) TimerEvent: {}
+[6.518599] (-) TimerEvent: {}
+[6.619410] (-) TimerEvent: {}
+[6.719837] (-) TimerEvent: {}
+[6.820327] (-) TimerEvent: {}
+[6.920675] (-) TimerEvent: {}
+[7.021104] (-) TimerEvent: {}
+[7.121457] (-) TimerEvent: {}
+[7.221802] (-) TimerEvent: {}
+[7.322141] (-) TimerEvent: {}
+[7.422489] (-) TimerEvent: {}
+[7.522806] (-) TimerEvent: {}
+[7.623058] (-) TimerEvent: {}
+[7.723403] (-) TimerEvent: {}
+[7.823758] (-) TimerEvent: {}
+[7.924100] (-) TimerEvent: {}
+[8.024447] (-) TimerEvent: {}
+[8.124790] (-) TimerEvent: {}
+[8.225154] (-) TimerEvent: {}
+[8.325501] (-) TimerEvent: {}
+[8.425846] (-) TimerEvent: {}
+[8.526211] (-) TimerEvent: {}
+[8.626555] (-) TimerEvent: {}
+[8.726997] (-) TimerEvent: {}
+[8.827361] (-) TimerEvent: {}
+[8.927726] (-) TimerEvent: {}
+[9.028082] (-) TimerEvent: {}
+[9.128436] (-) TimerEvent: {}
+[9.228791] (-) TimerEvent: {}
+[9.329165] (-) TimerEvent: {}
+[9.429514] (-) TimerEvent: {}
+[9.529873] (-) TimerEvent: {}
+[9.630233] (-) TimerEvent: {}
+[9.730574] (-) TimerEvent: {}
+[9.830910] (-) TimerEvent: {}
+[9.931259] (-) TimerEvent: {}
+[10.031590] (-) TimerEvent: {}
+[10.131920] (-) TimerEvent: {}
+[10.232265] (-) TimerEvent: {}
+[10.332597] (-) TimerEvent: {}
+[10.432933] (-) TimerEvent: {}
+[10.533281] (-) TimerEvent: {}
+[10.633610] (-) TimerEvent: {}
+[10.733939] (-) TimerEvent: {}
+[10.834277] (-) TimerEvent: {}
+[10.934942] (-) TimerEvent: {}
+[11.035290] (-) TimerEvent: {}
+[11.135610] (-) TimerEvent: {}
+[11.236141] (-) TimerEvent: {}
+[11.336518] (-) TimerEvent: {}
+[11.436873] (-) TimerEvent: {}
+[11.537233] (-) TimerEvent: {}
+[11.637556] (-) TimerEvent: {}
+[11.737857] (-) TimerEvent: {}
+[11.838169] (-) TimerEvent: {}
+[11.938425] (-) TimerEvent: {}
+[12.038755] (-) TimerEvent: {}
+[12.139092] (-) TimerEvent: {}
+[12.239424] (-) TimerEvent: {}
+[12.339753] (-) TimerEvent: {}
+[12.440104] (-) TimerEvent: {}
+[12.540392] (-) TimerEvent: {}
+[12.640733] (-) TimerEvent: {}
+[12.741066] (-) TimerEvent: {}
+[12.841411] (-) TimerEvent: {}
+[12.941752] (-) TimerEvent: {}
+[13.042099] (-) TimerEvent: {}
+[13.142437] (-) TimerEvent: {}
+[13.242773] (-) TimerEvent: {}
+[13.343059] (-) TimerEvent: {}
+[13.443398] (-) TimerEvent: {}
+[13.543747] (-) TimerEvent: {}
+[13.644088] (-) TimerEvent: {}
+[13.744436] (-) TimerEvent: {}
+[13.844789] (-) TimerEvent: {}
+[13.945156] (-) TimerEvent: {}
+[14.046153] (-) TimerEvent: {}
+[14.146514] (-) TimerEvent: {}
+[14.246867] (-) TimerEvent: {}
+[14.347246] (-) TimerEvent: {}
+[14.447598] (-) TimerEvent: {}
+[14.501452] (nav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit\x1b[0m\n'}
+[14.547929] (-) TimerEvent: {}
+[14.648299] (-) TimerEvent: {}
+[14.748652] (-) TimerEvent: {}
+[14.849095] (-) TimerEvent: {}
+[14.949468] (-) TimerEvent: {}
+[15.049817] (-) TimerEvent: {}
+[15.150153] (-) TimerEvent: {}
+[15.165128] (nav) StdoutLine: {'line': b'[100%] Built target pure_pursuit\n'}
+[15.177331] (nav) CommandEnded: {'returncode': 0}
+[15.177851] (nav) JobProgress: {'identifier': 'nav', 'progress': 'install'}
+[15.187379] (nav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tharun/smoothing-rpp/build/nav'], 'cwd': '/home/tharun/smoothing-rpp/build/nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tharun'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.1/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/tharun'), ('OLDPWD', '/home/tharun'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1459'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/tharun/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tharun'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tharun'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/ros/humble/bin:/home/tharun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tharun-LOQ-15ARP9:@/tmp/.ICE-unix/1435,unix/tharun-LOQ-15ARP9:/tmp/.ICE-unix/1435'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8caf6d23_e3f3_48a5_b33d_2e89a1ac7dd2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tharun/smoothing-rpp/build/nav'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.194056] (nav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.194360] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/pythonpath.sh\n'}
+[15.194509] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/pythonpath.dsv\n'}
+[15.194679] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info\n'}
+[15.194798] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.194889] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.195038] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.195174] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.195239] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav\n'}
+[15.195274] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav/__init__.py\n'}
+[15.220442] (nav) StdoutLine: {'line': b"Listing '/home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav'...\n"}
+[15.220643] (nav) StdoutLine: {'line': b"Compiling '/home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav/__init__.py'...\n"}
+[15.223887] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/launch\n'}
+[15.224109] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/launch/sim_bringup.py\n'}
+[15.224231] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/launch/mpc_bringup.py\n'}
+[15.224321] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/config\n'}
+[15.224430] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/config/sim.rviz\n'}
+[15.224544] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/waypoints\n'}
+[15.224624] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/waypoints/waypoint.csv\n'}
+[15.224732] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/nav\n'}
+[15.224824] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/nav/__init__.py\n'}
+[15.224916] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/src\n'}
+[15.225041] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/src/pure_pursuit.cpp\n'}
+[15.225142] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/src/smoothing.cpp\n'}
+[15.225214] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts\n'}
+[15.225248] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/mpc_tracker.py\n'}
+[15.225308] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/spawn_static_obstacle.py\n'}
+[15.225399] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/spawn_dynamic_obstacle.py\n'}
+[15.225599] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/lib/nav/pure_pursuit\n'}
+[15.234532] (nav) StdoutLine: {'line': b'-- Set runtime path of "/home/tharun/smoothing-rpp/install/nav/lib/nav/pure_pursuit" to ""\n'}
+[15.234696] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/lib/nav/smoothing\n'}
+[15.235764] (nav) StdoutLine: {'line': b'-- Set runtime path of "/home/tharun/smoothing-rpp/install/nav/lib/nav/smoothing" to ""\n'}
+[15.236010] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/lib/nav/mpc_tracker\n'}
+[15.236087] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/lib/nav/spawn_static_obstacle\n'}
+[15.236181] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/lib/nav/spawn_dynamic_obstacle\n'}
+[15.236399] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/package_run_dependencies/nav\n'}
+[15.236647] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/parent_prefix_path/nav\n'}
+[15.236771] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/ament_prefix_path.sh\n'}
+[15.236897] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/ament_prefix_path.dsv\n'}
+[15.237037] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/path.sh\n'}
+[15.237161] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/path.dsv\n'}
+[15.237286] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.bash\n'}
+[15.237406] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.sh\n'}
+[15.237538] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.zsh\n'}
+[15.237750] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.dsv\n'}
+[15.237881] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/package.dsv\n'}
+[15.238057] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/packages/nav\n'}
+[15.238212] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/cmake/navConfig.cmake\n'}
+[15.238317] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/cmake/navConfig-version.cmake\n'}
+[15.238437] (nav) StdoutLine: {'line': b'-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/package.xml\n'}
+[15.240730] (nav) CommandEnded: {'returncode': 0}
+[15.250259] (-) TimerEvent: {}
+[15.252899] (nav) JobEnded: {'identifier': 'nav', 'rc': 0}
+[15.253519] (-) EventReactorShutdown: {}

@@ -1,0 +1,63 @@
+[0.010s] Invoking command in '/home/tharun/smoothing-rpp/build/nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tharun/smoothing-rpp/build/nav -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target smoothing[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target pure_pursuit[0m
+[0.071s] [  0%] Built target ament_cmake_python_copy_nav
+[0.072s] [ 50%] Built target smoothing
+[0.072s] [100%] Built target pure_pursuit
+[0.257s] running egg_info
+[0.258s] writing nav.egg-info/PKG-INFO
+[0.258s] writing dependency_links to nav.egg-info/dependency_links.txt
+[0.258s] writing top-level names to nav.egg-info/top_level.txt
+[0.259s] reading manifest file 'nav.egg-info/SOURCES.txt'
+[0.260s] writing manifest file 'nav.egg-info/SOURCES.txt'
+[0.287s] [100%] Built target ament_cmake_python_build_nav_egg
+[0.299s] Invoked command in '/home/tharun/smoothing-rpp/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tharun/smoothing-rpp/build/nav -- -j16 -l16
+[0.311s] Invoking command in '/home/tharun/smoothing-rpp/build/nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tharun/smoothing-rpp/build/nav
+[0.318s] -- Install configuration: ""
+[0.318s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/pythonpath.sh
+[0.318s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/pythonpath.dsv
+[0.318s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info
+[0.318s] -- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/PKG-INFO
+[0.318s] -- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.319s] -- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/top_level.txt
+[0.319s] -- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.319s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav
+[0.319s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav/__init__.py
+[0.343s] Listing '/home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav'...
+[0.346s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/launch
+[0.346s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/launch/sim_bringup.py
+[0.346s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/launch/mpc_bringup.py
+[0.346s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/config
+[0.346s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/config/sim.rviz
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/waypoints
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/waypoints/waypoint.csv
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/nav
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/nav/__init__.py
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/src
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/src/pure_pursuit.cpp
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/src/smoothing.cpp
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts
+[0.347s] -- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/mpc_tracker.py
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/spawn_static_obstacle.py
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/spawn_dynamic_obstacle.py
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/pure_pursuit
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/smoothing
+[0.347s] -- Installing: /home/tharun/smoothing-rpp/install/nav/lib/nav/mpc_tracker
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/spawn_static_obstacle
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/spawn_dynamic_obstacle
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/ament_prefix_path.sh
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/ament_prefix_path.dsv
+[0.347s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/path.sh
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/path.dsv
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.bash
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.sh
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.zsh
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.dsv
+[0.348s] -- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/package.dsv
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/packages/nav
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/cmake/navConfig.cmake
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/cmake/navConfig-version.cmake
+[0.348s] -- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/package.xml
+[0.350s] Invoked command in '/home/tharun/smoothing-rpp/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tharun/smoothing-rpp/build/nav

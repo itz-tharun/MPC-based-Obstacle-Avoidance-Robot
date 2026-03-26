@@ -1,0 +1,57 @@
+[ 50%] Built target smoothing
+[100%] Built target pure_pursuit
+[100%] Built target ament_cmake_python_copy_nav
+running egg_info
+writing nav.egg-info/PKG-INFO
+writing dependency_links to nav.egg-info/dependency_links.txt
+writing top-level names to nav.egg-info/top_level.txt
+reading manifest file 'nav.egg-info/SOURCES.txt'
+writing manifest file 'nav.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_nav_egg
+-- Install configuration: ""
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/pythonpath.sh
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/pythonpath.dsv
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info
+-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav/__init__.py
+Listing '/home/tharun/smoothing-rpp/install/nav/local/lib/python3.10/dist-packages/nav'...
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/launch
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/launch/sim_bringup.py
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/launch/mpc_bringup.py
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/config
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/config/sim.rviz
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/waypoints
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/waypoints/waypoint.csv
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/nav
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/nav/__init__.py
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/src
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/src/pure_pursuit.cpp
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/src/smoothing.cpp
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts
+-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/mpc_tracker.py
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/spawn_static_obstacle.py
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/scripts/spawn_dynamic_obstacle.py
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/pure_pursuit
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/smoothing
+-- Installing: /home/tharun/smoothing-rpp/install/nav/lib/nav/mpc_tracker
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/spawn_static_obstacle
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/lib/nav/spawn_dynamic_obstacle
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/path.sh
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/environment/path.dsv
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.bash
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.sh
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.zsh
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/local_setup.dsv
+-- Installing: /home/tharun/smoothing-rpp/install/nav/share/nav/package.dsv
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/ament_index/resource_index/packages/nav
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/cmake/navConfig.cmake
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/cmake/navConfig-version.cmake
+-- Up-to-date: /home/tharun/smoothing-rpp/install/nav/share/nav/package.xml

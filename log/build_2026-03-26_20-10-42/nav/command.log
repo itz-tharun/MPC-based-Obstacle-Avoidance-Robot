@@ -1,0 +1,6 @@
+Invoking command in '/home/tharun/smoothing-rpp/build/nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tharun/smoothing-rpp -DCMAKE_INSTALL_PREFIX=/home/tharun/smoothing-rpp/install/nav
+Invoked command in '/home/tharun/smoothing-rpp/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tharun/smoothing-rpp -DCMAKE_INSTALL_PREFIX=/home/tharun/smoothing-rpp/install/nav
+Invoking command in '/home/tharun/smoothing-rpp/build/nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tharun/smoothing-rpp/build/nav -- -j16 -l16
+Invoked command in '/home/tharun/smoothing-rpp/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tharun/smoothing-rpp/build/nav -- -j16 -l16
+Invoking command in '/home/tharun/smoothing-rpp/build/nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tharun/smoothing-rpp/build/nav
+Invoked command in '/home/tharun/smoothing-rpp/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tharun/smoothing-rpp/build/nav
