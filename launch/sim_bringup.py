@@ -1,15 +1,27 @@
-import os
+"""
+sim_bringup.py  — launches Pure Pursuit tracker + smoothing + Gazebo + RViz
+Place at: ~/smoothing-rpp/launch/sim_bringup.py
 
+FIXED: smoothing node now added so waypoints actually reach the robot.
+Data flow:
+  waypoint.csv  →  smoothing node  →  /path  →  pure_pursuit  →  /cmd_vel  →  robot
+"""
+import os
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, TimerAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import PathJoinSubstitution
 
+
 def generate_launch_description():
 
+    pkg_share = get_package_share_directory('nav')
+    waypoints_file = os.path.join(pkg_share, 'waypoints', 'waypoint.csv')
+
+    # ── Gazebo ────────────────────────────────────────────────────────── #
     turtlebot3_gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -21,23 +33,34 @@ def generate_launch_description():
         launch_arguments={'use_sim_time': 'true'}.items()
     )
 
+    # ── RViz ──────────────────────────────────────────────────────────── #
     rviz = Node(
         package='rviz2',
         executable='rviz2',
         name='rviz2',
-        arguments=[
-            '-d',
-            [os.path.join(get_package_share_directory('nav'), 'config', 'sim.rviz')]
-        ],
-        parameters=[{
-            'use_sim_time': True
-        }]
+        arguments=['-d', os.path.join(pkg_share, 'config', 'sim.rviz')],
+        parameters=[{'use_sim_time': True}]
     )
 
+    # ── Smoothing node (was missing from original — now added) ─────────── #
+    smoothing = Node(
+        package='nav',
+        executable='smoothing',
+        name='smoothing',
+        parameters=[{
+            'use_sim_time': True,
+            'path_file': waypoints_file,
+            'path_resolution': 0.05,
+            'frame_id': 'odom',
+        }],
+        output='screen'
+    )
+
+    # ── Pure Pursuit tracker ───────────────────────────────────────────── #
     pure_pursuit_tracker = Node(
-        package="nav",
-        executable="pure_pursuit",
-        name="pure_pursuit",
+        package='nav',
+        executable='pure_pursuit',
+        name='pure_pursuit',
         parameters=[{
             'use_sim_time': True,
             'debug': True,
@@ -60,14 +83,14 @@ def generate_launch_description():
             'goal_position_tolerance': 0.2,
             'use_rotate_to_heading': True,
             'rotate_to_heading_min_angle': 0.785,
-            'point_threshold': 15,
-            'obstacle_avoidance_distance': 1.0,
-        }]
+            'obstacle_threshold': 0.5,
+        }],
+        output='screen'
     )
 
-    nodes = []
-    nodes.append(turtlebot3_gazebo)
-    nodes.append(pure_pursuit_tracker)
-    nodes.append(rviz)
-
-    return LaunchDescription(nodes)
+    return LaunchDescription([
+        turtlebot3_gazebo,
+        rviz,
+        smoothing,
+        TimerAction(period=3.0, actions=[pure_pursuit_tracker]),
+    ])
